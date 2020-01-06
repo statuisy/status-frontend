@@ -1,9 +1,10 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+ See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
 /node_modules
 /.pnp
 .pnp.js
+/.next
 
 # testing
 /coverage
@@ -13,6 +14,7 @@
 
 # misc
 .DS_Store
+.swp
 
 # dotenv environment variables file
 .env
