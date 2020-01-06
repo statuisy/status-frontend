@@ -1,6 +1,8 @@
+import Maintenance from '../components/Maintenance';
+
 const Index = () => (
 	<div>
-		<p>Status Page™️ </p>
+		<Maintenance />
 	</div>
 )
 
