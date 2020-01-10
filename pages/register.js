@@ -7,3 +7,10 @@ const Register = () => (
 )
 
 export default Register;
+
+{/* <style jsx>{`
+  label {
+    font-size: 3rem;
+    color: red;
+  }
+`}</style> */}
