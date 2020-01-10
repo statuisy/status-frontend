@@ -5,7 +5,6 @@ import DueIn from './DueIn';
 import data from '../data/maintenance.json';
 
 const Maintenance = () => {
-	console.log(data);
 	return (
 		<div>
 			{data.map((item) => {

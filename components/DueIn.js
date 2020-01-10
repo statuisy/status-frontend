@@ -7,10 +7,6 @@ const DueIn = (props ) => {
 	//Set the due to a date object that is the how_long time added to the time it was created
 	const due = new Date(Date.parse(createdAt) + props.howLong);
 
-	//console.log(createdAt);
-	//console.log(due);
-	//console.log(props.status);
-	
 	//If Maintentance is completed return blank
 	if(props.status === 'completed'){
 		return (<></>)
