@@ -5,7 +5,7 @@
 		"title": "The begining",
 		"description": "This is the begining",
 		"start_time": "2020-01-04 03:00:00",
-		"how_long": "1 hours",
+		"how_long": 1000000000,
 		"status": "ongoing",
 		"updated_at": "2020-01-04 03:00:00",
 		"created_at": "2020-01-04 03:00:00"	
@@ -16,9 +16,21 @@
 		"title": "Another",
 		"description": "This is another one 😉",
 		"start_time": "2020-01-04 03:00:00",
-		"how_long": "1 hours",
+		"how_long": 10000050,
 		"status": "ongoing",
 		"updated_at": "2020-01-04 03:00:00",
 		"created_at": "2020-01-04 03:00:00"	
+	},
+	{
+		"id": 3,
+		"user_id": 3,
+		"title": "Done Maintenance",
+		"description": "✅",
+		"start_time": "2020-01-04 03:00:00",
+		"how_long": 10000050,
+		"status": "completed",
+		"updated_at": "2020-01-04 03:00:00",
+		"created_at": "2020-01-04 03:00:00"	
 	}
+	
 ]
