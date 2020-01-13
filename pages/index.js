@@ -1,9 +1,12 @@
-import Link from 'next/link';
+
+import Maintenance from '../components/Maintenance';
+import Header from '../components/Header';
 
 const Index = () => (
+
 	<div>
-		<p>Status Page™️ </p>
-		{/* <Link href="/Register" /> */}
+		<Header />
+		<Maintenance />
 	</div>
 )
 
