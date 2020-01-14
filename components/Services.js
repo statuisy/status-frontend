@@ -13,10 +13,10 @@ const Services = () => {
                 Software Upgrades
             </div>
             <div className="alert alert-success" role="alert">
-                This is a success alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+                This is a success alert with <a href="#" className="alert-link">an example link</a>. Give it a click if you like.
             </div>
             <div className="alert alert-danger" role="alert">
-                This is a danger alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+                This is a danger alert with <a href="#" className="alert-link">an example link</a>. Give it a click if you like.
             </div>
         </>
     )
