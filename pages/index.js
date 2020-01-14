@@ -2,16 +2,22 @@
 import Maintenance from '../components/Maintenance';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-const Index = () => (
+import Services from '../components/Services';
+import Head from 'next/head';
 
-	<div className="container-fluid">
-		<head>
+const Index = () => (
+	<>
+		<Head>
 			<link rel="stylesheet" href="https://bootswatch.com/4/darkly/bootstrap.min.css" />
-		</head>
-		<Header />
-		<Maintenance />
-		<Footer />
-	</div>
+		</Head>
+
+		<div className="container-fluid">
+			<Header />
+			<Maintenance />
+			<Services />
+			<Footer />
+		</div>
+	</>
 )
 
 export default Index;
