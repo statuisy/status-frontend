@@ -2,9 +2,9 @@ import React from 'react';
 
 const Header = () => {
     return (
-        <div>
-            <h1>The Luxer One Status Site</h1>
-            <button>Subscribe</button>
+        <div className="jumbotron">
+            <h1 className="text-center">The Luxer One Status Site</h1>
+            <button type="button" className="btn btn-secondary">Subscribe</button>
         </div>
     )
 }
