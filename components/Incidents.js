@@ -1,5 +1,4 @@
 import React from 'react';
-import styled from 'styled-components';
 import DueIn from './DueIn';
 
 import data from '../data/incidents.json';
@@ -15,7 +14,6 @@ const Incidents = () => {
                         {item.start_time}<br />
                         {item.status}
                     </div>
-
                 )
             })}
         </div>
