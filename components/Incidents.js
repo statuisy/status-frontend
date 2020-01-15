@@ -9,10 +9,12 @@ const Incidents = () => {
             <label>Incidents</label>
             {data.map((item) => {
                 return (
-                    <div className="alert alert-danger">
-                        {item.title} <br />
-                        {item.start_time}<br />
-                        {item.status}
+                    <div key={item.id}>
+                        <div className="alert alert-danger">
+                            {item.title} <br />
+                            {item.start_time}<br />
+                            {item.status}
+                        </div>
                     </div>
                 )
             })}
