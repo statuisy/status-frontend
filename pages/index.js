@@ -1,5 +1,5 @@
-
 import Maintenance from '../components/Maintenance';
+import Incidents from '../components/Incidents';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Services from '../components/Services';
@@ -13,6 +13,7 @@ const Index = () => (
 
 		<div className="container-fluid">
 			<Header />
+			<Incidents />
 			<Maintenance />
 			<Services />
 			<Footer />
