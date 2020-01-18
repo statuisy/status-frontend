@@ -11,9 +11,9 @@ const Incidents = () => {
                 return (
                     <div key={item.id}>
                         <div className="alert alert-danger">
-                            {item.title} <br />
-                            {item.start_time}<br />
-                            {item.status}
+				<p>{item.title}</p>
+				<p>{item.start_time}</p>
+				<p>{item.status}</p>
                         </div>
                     </div>
                 )
