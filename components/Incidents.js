@@ -1,5 +1,6 @@
 import React from 'react';
 import DueIn from './DueIn';
+import Link from 'next/link';
 
 import data from '../data/incidents.json';
 
@@ -9,13 +10,15 @@ const Incidents = () => {
             <label>Incidents</label>
             {data.map((item) => {
                 return (
-                    <div key={item.id}>
-                        <div className="alert alert-danger">
-				<p>{item.title}</p>
-				<p>{item.start_time}</p>
-				<p>{item.status}</p>
+                    <Link href={`/incidents?eid=${item.id}`}>
+                        <div key={item.id}>
+                            <div className="alert alert-danger">
+                                <p>{item.title}</p>
+                                <p>{item.start_time}</p>
+                                <p>{item.status}</p>
+                            </div>
                         </div>
-                    </div>
+                    </Link>
                 )
             })}
         </div>
