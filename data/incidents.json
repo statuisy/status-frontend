@@ -4,31 +4,33 @@
         "title": "THD app crashed all systems",
         "description": "New app push broke stuff",
         "start_time": "2020-01-04 03:00:00",
-	"affected_services": ["iPad app","THD"],
-	"entries": [
-		{
-        		"id": 1,
-			"status": "Investigating",
-			"text": "We are currently investigating a problem with a new app build.",
-			"updater_id": 3,
-			"updated_at": "2020-01-06 02:00:00"
-		},
-		{
-			"id": 2,
-			"status": "Identified",
-			"text": "Looks like our dev Mike forgot to put className instead of class.",
-			"updater_id": 3,
-			"updated_at": "2020-01-20 06:50:00"
-		},
-		{
-			"id": 3,
-			"status": "Monitoring",
-			"text": "Fixed them all. Running through checks to make sure none were missed.",
-			"updater_id": 3,
-			"updated_at": "2020-01-20 06:54:00"
-		}
-
-	],
+        "affected_services": [
+            "iPad app",
+            "THD"
+        ],
+        "entries": [
+            {
+                "id": 1,
+                "status": "Investigating",
+                "text": "We are currently investigating a problem with a new app build.",
+                "updater_id": 3,
+                "updated_at": "2020-01-06 02:00:00"
+            },
+            {
+                "id": 2,
+                "status": "Identified",
+                "text": "Looks like our dev Mike forgot to put className instead of class.",
+                "updater_id": 3,
+                "updated_at": "2020-01-20 06:50:00"
+            },
+            {
+                "id": 3,
+                "status": "Monitoring",
+                "text": "Fixed them all. Running through checks to make sure none were missed.",
+                "updater_id": 3,
+                "updated_at": "2020-01-20 06:54:00"
+            }
+        ],
         "created_at": "2020-01-08 13:00:00"
     },
     {
@@ -36,7 +38,10 @@
         "title": "MF app crashed all systems",
         "description": "New app push broke stuff",
         "start_time": "2020-01-04 03:00:00",
-	"affected_services": ["iPad app","THD"],
+        "affected_services": [
+            "iPad app",
+            "THD"
+        ],
         "updated_at": "2020-01-16 13:00:00",
         "created_at": "2020-01-15 03:00:00"
     },
@@ -45,7 +50,10 @@
         "title": "Lockers have become corrosive",
         "description": "Locker metal deteriorating",
         "start_time": "2020-01-04 08:00:00",
-	"affected_services": ["Lockers","Damaged"],
+        "affected_services": [
+            "Lockers",
+            "Damaged"
+        ],
         "updated_at": "2020-01-31 09:00:00",
         "created_at": "2020-01-31 06:00:00"
     }
